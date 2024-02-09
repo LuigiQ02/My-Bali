@@ -1,0 +1,94 @@
+body {
+    font-family: 'Sacramento', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: #e6005c;
+}
+
+.invitation {
+    border-radius: 10px;
+    padding: 20px;
+    height: 700px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: mistyrose;
+    padding-top: 110px;
+    position: relative;
+}
+
+.invitation::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/bg.jpg);
+    inset: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    opacity: 0.2;
+}
+.invitation p {
+    margin: 0 0 15px;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #333;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e6005c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c4004f;
+}
+
+.no__button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e6005c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no_button:hover {
+    background-color: #c4004f;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
