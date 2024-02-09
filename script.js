@@ -3,7 +3,7 @@ function confirmAttendance() {
     if (name) {
         alert("Thank you, " + name + "! ILOVEYOUUUUU! " + "See you soon! ");
     } else {
-        alert("Please enter your name");
+        alert("Please write Bali");
     }
 }
 
